@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" 
+  content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo"><span>A</span>nu K N</a>
+
+  <nav class="navbar">
+     <a href="#" class="active">Home</a>
+     <a href="#">About</a>
+     <a href="#">Projects</a>
+     <a href="#">Education</a>
+    </nav>
+
+    <a href="#" class="contact">Contact Me</a>   
+    </header>
+    <div class="home">
+      <div class="home-content">
+        <h3>Hi</h3>
+        <h1>I'am <span>Anu K N<br></span>a Frontend Developer</h1>
+        <h2>Engineer</h2>
+        <div class="btn-box">
+          <button class="btn-1">Hire Me</button>
+          <button class="btn-2">Fresher</button>
+        </div>
+      </div>
+      <div class="img-box">
+        <img src="Anu.jpeg" alt="">
+      </div>
+    </div>
+<div class="about">
+  <div class="about-img">
+    <img src="Anu.jpeg" alt="">
+  </div>
+    <div class="about-content">
+      <h2 class="Sub-title">About <span>Me</span></h2><br>
+      <p>I have completed My Engineering from Electronics and Communication branch in STJIT,Ranebennur with 8.8 Cgpa.Currently,I am takening Training in JLC Bangalore.</p>
+      
+      <div class="tab-titles">
+      <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+      <p class="tab-links" onclick="opentab('experience')">Experience</p>
+      <p class="tab-links" onclick="opentab('education')">Education</p>
+      </div>
+      <div class="tab-contents active-tab" id="skills">
+        <ul>
+          <li><span>Core Java</span><br>Learned the OOP'S Concept and Collections in Java.</li><br>
+          <li><span>HTML and CSS</span><br>Learned the basics of HTML and CSS.</li><br>
+          <li><span>Javascript</span><br>I learned javascript store data and animations.</li><br>
+          <li><span>Embedded System</span><br>Learned the Protocols and boards of the Embedded.</li><br>
+          <li><span>Verilog HDL</span><br>Learned the basic programming language of HDL.</li><br>
+        </ul>
+      </div>
+
+      <div class="tab-contents" id="experience">
+        <ul>
+          <li><span>2024 - Current</span><br>Full stack development training in JLC Institute.</li><br>
+          <li><span>2024</span><br>Certified through the Simplilearn App</li><br>
+          <li><span>2024</span><br>I learned javascript store data and animations through youtube.</li><br>
+          <li><span>2021 - 2024</span><br>Done by the Embedded Projects.</li><br>
+          <li><span>2021 - 2024</span><br> I learned about Verilog in my collage lab studies.</li><br>
+        </ul>
+      </div>
+
+    <div class="tab-contents" id="education">
+      <ul>
+        <li><span>2024 - Current</span><br>Taken training in JLC Institute Bangalore.</li><br>
+        <li><span>2024</span><br>Learned through the Simplilearn App.</li><br>
+        <li><span>2024</span><br>Through the youtube, I learned the javascript.</li><br>
+        <li><span>2021 - 2024</span><br>Internship in Abhiyantrix softlab Davangere.</li><br>
+        <li><span>2021 - 2024</span><br>Sri Taralabalu Jagadguru Institute Of Technology, Ranebennur.</li><br>
+        </ul>
+      </div>
+    </div>
+  </div>
+<div id="projects">
+  <div class="container">
+  <h1 class="sub-title">My Projects</h1>
+  <div class="projects-list">
+      <div>
+        <i class='bx bxs-mobile' ></i>
+        <h2>Police Surviellance Robot Using IOT</h2>
+        <p>This Project is to provide live video footages to police control rooms and also transmit the data such as video, audio and other environmental conditions like any accidents occurs in public places.
+        The robot can identify and record the traffic rules and it also gives safety instruction like wear helmet, wear seat belt, drive safe etc.through the speaker and OLED display.</p>
+        <a href="#">Learn more</a>
+      </div>
+    <div>
+      <i class='bx bxs-crop' ></i>
+      <h2>Joystick Controlled Robotic Arm </h2>
+      <p>The purpose of this project was to create a robot arm control using thumbsticks. 
+      We had to use an Arduino Uno for the control and in addition, we had to implement some sort of actuator or sensor in the setup.</p>
+      <a href="#">Learn more</a>
+      </div>
+    <div>
+      <i class='bx bx-code-alt'></i>
+      <h2>Control Servo Motor Using Potentiometer </h2>
+      <p>This project focuses on the integration of a servo motor,potentiometer,and Arduino Nano, 
+        showcasing how these components interact in a simple robotic application.The potentiometer serves as a variable resistor that allows us to adjust its resistance by turning a knob or slider, 
+        which in turn alters the voltage sent to the Arduino.</p>
+      <a href="#">Learn more</a>
+    </div>
+    <div>
+      <i class='bx bx-calculator'></i>
+      <h2>Simple calculator</h2>
+      <p>It's a great starting point for learning web development and can be
+        further expanded with additional features like scientific functions, history, or even a graphical user interface(GUI).</p>
+      <a href="#">Learn more</a>
+    </div>
+  </div>
+  </div>
+  <a href="#" class="btn">See more</a>
+</div>
+</div>
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title"><span>C</span>ontact <Span>Me</Span></h1>
+      </div>
+        </div>
+      </div>
+      <div class="contact-right">
+        <form>
+          <div class="input-box">
+            <input type="text" name="Name" placeholder="Your Name" required>
+          </div>
+          <div class="input-box">
+            <input type="email" name="email" placeholder="Your Email" required>
+          </div>
+          <div class="input-box">
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          </div>
+          <div class="input-box">
+          <button type="submit" class="btn btn2">submit</button>
+          <div>
+            <a href="Resume.pdf" download class="btn btn2">Download CV</a>
+          </div>
+        </form>
+        <footer class="footer">
+        <div class="social-icons">
+          <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+          <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+          <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+          <a href="#"><i class='bx bx-phone-call' ></i></a>
+      </div>
+      <ul class="list">
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </footer>
+  </div>
+  </div>
+  </div>
+</div>
+<script>
+function opentab(tabname){
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+  
+    for(let tablink of tablinks){
+    tablink.classList.remove("active-link");
+  }
+  for(let tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+}
+   event.currentTarget.classList.add("active-link");
+
+   document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+</script>
+</body>
+</html>
